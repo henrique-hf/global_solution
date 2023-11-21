@@ -1,0 +1,18 @@
+Siga o exemplo de resposta abaixo:
+# Sintomas
+1. **Dor abdominal**, predominantemente do lado direito, por 3 dias
+2. Presença de **vômitos**
+
+# Possíveis diagnósticos
+1. **Apendicite**
+	- **Justificativa:** A dor forte no lado direito do abdômen é característica da apendicite.
+	- **Investigações sugeridas:** Exame físico abdominal, ultrassom do abdômen, exames de sangue (para verificar leucocitose), e possivelmente uma tomografia computadorizada.
+2. **Colecistite (inflamação da vesícula biliar)**
+	- **Justificativa:** Pode causar dor intensa no lado direito, especialmente se houver pedras na vesícula.
+	- **Investigações sugeridas:** Ultrassonografia abdominal, exames de sangue, incluindo testes hepáticos.
+3. **Obstrução intestinal**
+	- **Justificativa:** Pode causar dor abdominal intensa e vômito.
+	- **Investigações sugeridas:** Radiografia abdominal, tomografia computadorizada.
+4. **Gastroenterite**
+	- **Justificativa:** Embora geralmente cause dor mais generalizada, pode se apresentar com dor intensa e vômito.
+	- **Investigações sugeridas:** Coprocultura, exames de sangue, avaliação da hidratação.
