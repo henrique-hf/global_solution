@@ -1,5 +1,4 @@
-import util
-
+import src.util as util
 
 class User:
     def __init__(self, user_id: str, password: str):
