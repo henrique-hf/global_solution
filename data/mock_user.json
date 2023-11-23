@@ -1,0 +1,9 @@
+[
+  {
+    "user_id": "user_01",
+    "password": "123mudar",
+    "name": "Henrique",
+    "gender": "Masculino",
+    "age": 29
+  }
+]

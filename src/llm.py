@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 
-def generate_answer(client: OpenAI, role: str, question: str) -> str:
+def generate_response(client: OpenAI, role: str, question: str) -> str:
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[
