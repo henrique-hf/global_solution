@@ -1,19 +1,16 @@
 import streamlit as st
 
-st.title("Consulta")
+st.title("Consultar usuário")
 
 requested_user_id = st.text_input("Usuário", placeholder="Digite o usuário que deseja buscar")
 search = st.button("Buscar")
 
 if search:
-    if not st.session_state["user_list"].is_user_id_unique(requested_user_id):
-        user = st.session_state["user_list"].get_user(requested_user_id)
-        st.header("Nome")
-        st.write(user.name)
-        st.header("Idade")
-        st.write(str(user.age))
-        st.header("Sexo")
-        st.write(user.gender)
+    user = st.session_state["user_list"].get_user(requested_user_id)
+    if user is not None:
+        st.write(f"**Nome:** {user.name}")
+        st.write(f"**Idade:** {str(user.age)}")
+        st.write(f"**Sexo:** {user.gender}")
 
         for e in reversed(user.symptoms):
             date = e[0].strftime("%d/%m/%Y %H:%M")

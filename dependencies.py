@@ -6,11 +6,13 @@ import time
 
 
 def sign_in(user_list: UserList, username: str, password: str) -> bool:
-    if user_list.is_user_id_unique(username):
+    user = user_list.get_user(username)
+
+    if user is None:
         st.warning("Usuário não cadastrado")
         return False
+
     else:
-        user = user_list.get_user(username)
         authentication = user.authenticate(password)
 
         if authentication:
@@ -23,9 +25,9 @@ def sign_in(user_list: UserList, username: str, password: str) -> bool:
             return False
 
 
-def sign_up(user_list: UserList, username: str, password: str) -> bool:
-    if user_list.is_user_id_unique(username):
-        user = User(username, password)
+def sign_up(user_list: UserList, username: str, password: str, name: str, gender: str, age: int) -> bool:
+    if user_list.get_user(username) is None:
+        user = User(username, password, name, gender, age)
         user_list.add_user(user)
         st.info("Usuário cadastrado com sucesso")
         st.session_state["user"] = user

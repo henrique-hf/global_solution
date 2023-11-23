@@ -32,8 +32,8 @@ with tab_new_symptom:
             question = generate_question(instruction, symptoms, example)
             # st.write(question)
 
-            response = generate_response(client, role, question)
-            # response = "Teste mockado"
+            # response = generate_response(client, role, question)
+            response = "Teste mockado"
             # st.write(response)
 
             user.save_symptom(datetime.datetime.now(), symptoms, response)
@@ -52,16 +52,11 @@ with tab_history:
         st.write("Sem histórico")
 
 with tab_profile:
-    st.header("Nome")
-    st.write(user.name)
-    st.header("Idade")
-    st.write(str(user.age))
-    st.header("Sexo")
-    st.write(user.gender)
-    st.header("Número de atendimentos")
-    st.write(str(len(user.symptoms)))
-    st.header("Data do último atendimento")
+    st.write(f"**Nome:** {user.name}")
+    st.write(f"**Idade:** {str(user.age)}")
+    st.write(f"**Sexo:** {user.gender}")
+    st.write(f"**Número de atendimentos:** {str(len(user.symptoms))}")
     if len(user.symptoms) > 0:
-        st.write(user.symptoms[-1][0].strftime("%d/%m/%Y %H:%M"))
+        st.write(f"**Data do último atendimento:** {user.symptoms[-1][0].strftime('%d/%m/%Y %H:%M')}")
     else:
-        st.write("Sem histórico")
+        st.write(f"**Data do último atendimento:** Sem histórico")
