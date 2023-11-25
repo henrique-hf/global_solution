@@ -32,8 +32,8 @@ with tab_new_symptom:
             question = generate_question(instruction, symptoms, example)
             # st.write(question)
 
-            # response = generate_response(client, role, question)
-            response = "Teste mockado"
+            response = generate_response(client, role, question)
+            # response = "Teste mockado"
             # st.write(response)
 
             user.save_symptom(datetime.datetime.now(), symptoms, response)
