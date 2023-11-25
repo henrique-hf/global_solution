@@ -50,7 +50,7 @@ https://github.com/henrique-hf/global_solution/assets/78966558/3130dba0-4b6d-48c
 
 ![image](https://github.com/henrique-hf/global_solution/assets/78966558/c7f3b1f9-f9f8-49f3-b823-6964ce95dcd7)
 
-## Exemplo de triagem que realizada com o paciente
+## Exemplo de triagem que é realizada com o paciente
 
 ![image](https://github.com/henrique-hf/global_solution/assets/78966558/499b7109-7039-4503-bc74-190f40a478d8)
 
@@ -58,8 +58,11 @@ https://github.com/henrique-hf/global_solution/assets/78966558/3130dba0-4b6d-48c
 
 ![image](https://github.com/henrique-hf/global_solution/assets/78966558/2b54c5d3-ecd1-4b06-b698-3f9b8e6e08c4)
 
-**That´s all folks ;)**
 
 <p align="center">
-  <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/26030760-robo-medico-falando-para-uma-paciente-dentro-hospital-escritorio-recepcionista-as-a-recepcao-escrivaninha-robo-medico-cedo-diagnostico-robo-ilustracao-vetor.jpg"alt="Sublime's custom image"/>
+  <img src="https://github.com/KaiqueFj/CoffeeShop-Back/assets/78966558/703b5f1f-d5b2-422b-a385-ae7825a27afb"alt="Sublime's custom image" width=400/>
+</p>
+
+<p align="center">
+ That´s all folks ;)
 </p>
